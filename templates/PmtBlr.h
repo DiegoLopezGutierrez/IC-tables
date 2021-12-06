@@ -5,4 +5,4 @@ CREATE TABLE `PmtBlr` (
   `ElecID` int(11) NOT NULL,
   `coeff_c` double NOT NULL,
   `coeff_blr` double NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+);
