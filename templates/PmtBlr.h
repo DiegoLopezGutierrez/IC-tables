@@ -4,5 +4,4 @@ CREATE TABLE `PmtBlr` (
   `MaxRun` int(11) DEFAULT NULL,
   `ElecID` int(11) NOT NULL,
   `coeff_c` double NOT NULL,
-  `coeff_blr` double NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `coeff_blr` double NOT NULL);

@@ -1,10 +1,9 @@
 DROP TABLE IF EXISTS `DetectorGeo`;
 CREATE TABLE `DetectorGeo` (
-	  `XMIN` float NOT NULL COMMENT 'MINIMUM X VALUE (mm)',
-	  `XMAX` float NOT NULL COMMENT 'MAXIMUM X VALUE (mm)',
-	  `YMIN` float NOT NULL COMMENT 'MINIMUM Y VALUE (mm)',
-	  `YMAX` float NOT NULL COMMENT 'MAXIMUM Y VALUE (mm)',
-	  `ZMIN` float NOT NULL COMMENT 'MINIMUM Z VALUE (mm)',
-	  `ZMAX` float NOT NULL COMMENT 'MAXIMUM Z VALUE (mm)',
-	  `RMAX` float NOT NULL COMMENT 'MAXIMUM RADIUS (mm)'
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+	  `XMIN` float NOT NULL,
+	  `XMAX` float NOT NULL,
+	  `YMIN` float NOT NULL,
+	  `YMAX` float NOT NULL,
+	  `ZMIN` float NOT NULL,
+	  `ZMAX` float NOT NULL,
+	  `RMAX` float NOT NULL);
